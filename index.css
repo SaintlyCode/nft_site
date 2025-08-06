@@ -18,6 +18,11 @@ body {
     font-size: 2rem; 
     margin: 0;
  }
+
+h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
  
 h3 {
     color: #d0aaff;
@@ -25,9 +30,14 @@ h3 {
     margin: 0;
  }
 
-h2 {
-    margin: 0;
-    font-size: 1.5rem;
+a {
+    color: #ef5839;   
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+a:hover, a:active {
+    color: #d4b44c;
 }
 
 p {
