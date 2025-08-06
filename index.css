@@ -7,3 +7,20 @@ body {
    font-style: normal;
    margin: 0;
 }
+
+ header {
+    background-color: #5f29a3;
+    padding: 45px 0px;
+ }
+ 
+ h1 {
+    color: whitesmoke;  
+    font-size: 2rem; 
+    margin: 0;
+ }
+ 
+ h3 {
+    color: #d0aaff;
+    font-size: 1.25rem;
+    margin: 0;
+ }
