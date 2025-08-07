@@ -5,23 +5,15 @@ body {
    font-optical-sizing: auto;
    font-weight: 400;
    font-style: normal;
-   margin: 0;
 }
-
- header {
-    background-color: #5f29a3;
-    padding: 45px 0px;
- }
  
 /* TYPEOGRAPHY */
- h1 {
+h1 {
     color: whitesmoke;  
     font-size: 2rem; 
-    margin: 0;
  }
 
 h2 {
-    margin: 0;
     font-size: 1.5rem;
 }
  
@@ -30,6 +22,10 @@ h3 {
     font-size: 1.25rem;
     margin: 0;
  }
+
+body, h1, h3 {
+    margin:0;
+}
 
 p {
     font-size: 1rem;
@@ -47,22 +43,25 @@ a:hover, a:active {
 }
 
 /* CONTENT */
+header, section, footer {
+    padding: 45px 0;
+}
+
 .container {
     width: 620px;
     margin: 0 auto;
-}
-
-section {
-    padding: 45px 0;
 }
 
 .img-sneaker {
     width: 100%;   
 }
 
+header, .crypto-connoisseur {
+    background-color: #5f29a3;
+}
+
 .crypto-connoisseur {
-    color: whitesmoke;
-    background-color: #5f29a3;    
+    color: whitesmoke;   
 }
 
 .imgs-crypto {
@@ -79,5 +78,4 @@ footer {
     font-size: 1rem;
     color: #5f29a3;
     text-align: center;
-    padding: 45px 0;
 }
