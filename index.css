@@ -13,6 +13,7 @@ body {
     padding: 45px 0px;
  }
  
+/* TYPEOGRAPHY */
  h1 {
     color: whitesmoke;  
     font-size: 2rem; 
@@ -30,6 +31,11 @@ h3 {
     margin: 0;
  }
 
+p {
+    font-size: 1rem;
+}
+
+/* LINKS */
 a {
     color: #ef5839;   
     text-decoration-line: underline;
@@ -40,10 +46,7 @@ a:hover, a:active {
     color: #d4b44c;
 }
 
-p {
-    font-size: 1rem;
-}
-
+/* CONTENT */
 .container {
     width: 620px;
     margin: 0 auto;
@@ -55,4 +58,19 @@ section {
 
 .img-sneaker {
     width: 100%;   
+}
+
+.crypto-connoisseur {
+    color: whitesmoke;
+    background-color: #5f29a3;    
+}
+
+.imgs-crypto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-crypto {
+    width: 300px;
+    border-radius: 4.6px;
 }
