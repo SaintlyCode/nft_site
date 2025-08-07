@@ -29,6 +29,7 @@ body, h1, h3 {
 
 p {
     font-size: 1rem;
+    line-height: 23px;
 }
 
 /* LINKS */
@@ -45,6 +46,37 @@ a:hover, a:active {
 /* CONTENT */
 header, section, footer {
     padding: 45px 0;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 4.6px;
+    padding: 10px 19px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn:hover, 
+.btn:active {
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+.btn-buy {
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.btn-info, .btn-contact {
+    background-color: #f0e0ff;
+}
+
+.btn-about {
+    background-color: whitesmoke;
+}
+
+.btn-info, .btn-about, .btn-contact {
+    color: #5f29a3;
 }
 
 .container {
@@ -79,3 +111,4 @@ footer {
     color: #5f29a3;
     text-align: center;
 }
+
